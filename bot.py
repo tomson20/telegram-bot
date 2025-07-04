@@ -28,7 +28,7 @@ ADMIN_USER_ID = getenv("ADMIN_USER_ID")
 
 # Anthropic/Langdock API settings
 ANTHROPIC_BASE_URL = "https://api.langdock.com/anthropic/eu/"
-ANTHROPIC_MODEL = "claude-3-5-sonnet-20241022"
+ANTHROPIC_MODEL = "claude-3-5-sonnet-20240620"
 
 # Check required tokens
 if not TELEGRAM_TOKEN or not LANGDOCK_API_KEY:
